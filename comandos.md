@@ -9,3 +9,20 @@ libcdb file libc.so.6
 ```bash
 pwninit --libc libc.so.6 --bin restaurant --no-template
 ```
+
+### automatizar comandos de gdb
+
+se puede crear un archivo script.gdb tal que así:
+
+```bash
+start
+b *0x0000000000400ecd
+c
+```
+
+y luego ejecutarlo de esta forma:
+
+```bash
+gdb-pwndbg restaurant -x script.gdb
+```
+
