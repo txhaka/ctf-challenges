@@ -36,5 +36,6 @@ handle SIGALRM ignore
 
 ### salir del proceso con pwntools
 
+```bash
 usar r.close()
-
+```
