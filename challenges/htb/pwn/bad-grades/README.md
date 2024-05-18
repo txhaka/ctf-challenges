@@ -25,3 +25,8 @@ creamos una función to float que obtiene el equivalente en float a un valor hex
 def tofloat(valor):
     return (struct.unpack("<d", p64(valor))[0])
 ```
+
+### A investigar
+
+La flag del challenge es HTB{c4n4ry_1s_4fr41d_0f_s1gn3d_numb3r5}, por lo que seguramente tenga que ver con algo de signed numbers. Curiosamente, lo del . también
+funciona.
