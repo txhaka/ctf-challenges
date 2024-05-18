@@ -1,3 +1,9 @@
+### Common Bugs
+
+- Signedness mixups, jae is unsigned comparison, jge is signed comparison
+- Integer overflows
+- Off-by-one errors (overwrite other data on the stack)
+
 ### Bypass stack canary:
 
 - Leak the canary (using another vulnerability)
@@ -15,5 +21,5 @@
 ### Bypass PIE:
 
 - Leak memory address from the memory of the program
-- Brtueforce overwriting only the page offset (2 last bytes)
+- Bruteforce overwriting only the page offset (1 byte, fourth-less significant byte, pages are 0x1000 aligned thus 0x000 - 0x999)
 - Bruteforce (fork processes)
