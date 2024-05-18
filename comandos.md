@@ -26,3 +26,15 @@ y luego ejecutarlo de esta forma:
 gdb-pwndbg restaurant -x script.gdb
 ```
 
+### ignorar la señal de SIGALRM
+
+en gdb (o en las opciones de gdbscript en pwntools), poner lo siguiente:
+
+```bash
+handle SIGALRM ignore
+```
+
+### salir del proceso con pwntools
+
+usar r.close()
+
