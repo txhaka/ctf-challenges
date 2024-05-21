@@ -1,0 +1,4 @@
+- capacidad máxima de tcachebins es 7?
+- glibc leak gracias a un use after free, no se pone a NULL lo que se libera
+- bypass del canary de la misma forma que en bad grades, poniendo un "." porque hay un scanf en el buffer overflow
+- se envía la flag por stdin
