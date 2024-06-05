@@ -1,4 +1,6 @@
-![image](https://github.com/txhaka/ctf-directo/assets/154754392/87b8551e-838b-49a5-b3e2-98c39a074418)![image](https://github.com/txhaka/ctf-directo/assets/154754392/87b8551e-838b-49a5-b3e2-98c39a074418)![image](https://github.com/txhaka/ctf-directo/assets/154754392/d071a004-d0d4-4695-b627-9d86058b20df)Use after free vulnerability, overwriting function pointer.
+![image](https://github.com/txhaka/ctf-directo/assets/154754392/d071a004-d0d4-4695-b627-9d86058b20df)
+
+Use after free vulnerability, overwriting function pointer.
 
 storage global variable:
 
