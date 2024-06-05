@@ -1,3 +1,3 @@
-# ctf-directo
+# ctf-challenges
 
-Retos en directo que vamos resolviendo en el canal de [twitch](https://www.twitch.tv/txhaka_)
+Sometimes I do challenges live on [twitch](https://www.twitch.tv/txhaka_)
